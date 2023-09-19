@@ -8,19 +8,27 @@
         height: 360px;
         width: 100%;
         object-fit:conver;
+        margin-bottom:16px;
       }
     </style>
 
   </head>
 <body>
   {% include 'navbar.html'%}
+   <img class="img-fluid" src="https://jovian-careers-website--nouhahmed.repl.co/static/banner.jpg" id="banner">
   <div class="container">
-    <h1 class="text-center mt-2 mb-4">Jovian careers</h1>
-    <img class="img-fluid" src="https://jovian-careers-website--nouhahmed.repl.co/static/banner.jpg" id="banner">
+    
     <h2 class="text-center mt-2 mb-4">{{company_name}} Careers</h2>
+  <div class="row">
+    <div class="col-md-6">
     <p class="lead">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent maximus massa sed est bibendum ullamcorper. Ut suscipit a odio sit amet dictum. Duis id tellus eu leo porta tristique. Curabitur et congue nunc. Praesent pulvinar ultricies arcu porta laoreet. Etiam ultrices venenatis arcu. Fusce scelerisque blandit augue. Sed rutrum eros non lacus eleifend, et rhoncus diam ultrices. Nunc in ultrices ante, a vulputate odio.
     </p>
+    </div>
+    <div class="d-none d-md-block col-md-6" style="margin-bottom:16px">
+    <img src="/static/bodyimage.jpg" style="width:380px; border-radius:4px">
+    </div>
+  </div>
     <h2 class="text-center mt-2 mb-4 font-weight-bold">Open Positions</h2>
 
     
@@ -32,7 +40,7 @@
 
     
   <div style="text-align:center">
-    <button class="btn btn-primary btn-lg">Contact Us</button>
+    <a href="mailto:n.shiine13@gmail.com?subject=Question%20about%20position&body=My%20name%3A%20%3Cyour%20name%3E%0D%0A%0D%0AMy%20question%3A%20%3CYour%20question%3E%0D%0A" class="btn btn-primary btn-lg">Contact Us</a>
   </div>
 
     
